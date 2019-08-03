@@ -1,4 +1,4 @@
-title: Researcher
+title: Muchen Sun
 url: "https://muchensun.github.io"
 baseurl: ""
 
@@ -17,8 +17,8 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
+   link: "/"
  - name: "Curriculum Vitae"
-   link: "resume.pdf"
+   link: "/"
  - name: "Contact"
    link: "contact"
