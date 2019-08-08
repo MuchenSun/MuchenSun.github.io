@@ -2,8 +2,6 @@
 layout: default
 ---
 
-## About Me
-
 <img class="profile-picture" src="msun_small.jpg">
 
 HI! I am a master student of Mechanical Engineering at Northwestern University, Evanston, IL, USA.
