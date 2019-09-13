@@ -16,3 +16,7 @@ HI! I am a master student of Mechanical Engineering at Northwestern University, 
 
  - Bachelor of Engineering, Computer Science and Technology, 2015 - 2019
  - Member, Autonomous Driving Research Group, 2018 - 2019
+ 
+## Contact
+
+ * Email: [muchensun2021@u.northwestern.edu](mailto:muchensun2021@u.northwestern.edu)

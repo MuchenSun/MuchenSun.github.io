@@ -20,5 +20,5 @@ nav:
    link: "/"
  - name: "Curriculum Vitae"
    link: "/"
- - name: "Contact"
-   link: "contact"
+ - name: "Blog"
+   link: "blog"
