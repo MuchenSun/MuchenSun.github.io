@@ -1,4 +1,4 @@
-title: Muchen Sun
+title: Muchen Sun / 孙沐琛
 url: "https://muchensun.github.io"
 baseurl: ""
 
@@ -16,9 +16,9 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "About"
+ - name: "Home"
    link: "/"
  - name: "Curriculum Vitae"
-   link: "/"
+   link: "/CurriculumVitae/MuchenSun_CurriculumVitae.pdf"
  - name: "Blog"
    link: "blog"

@@ -4,7 +4,14 @@ layout: default
 
 <img class="profile-picture" src="msun_small.jpg">
 
-HI! I am a master student of Mechanical Engineering at Northwestern University, Evanston, IL, USA. My research interests are with robotics and programming language.
+HI! I am a master student of Mechanical Engineering at Northwestern University. My research interests are with robotics and programming language.
+
+***
+
+## Contact
+
+* **Mailing Address**: Department of Mechanical Engineering, Robert R. McCormick School of Engineering and Applied Science, Technological Institute, 2145 Sheridan Road, Evanston, IL 60208
+* **Email**: [muchensun2021@u.northwestern.edu](mailto:muchensun2021@u.northwestern.edu)
 
 ***
 
@@ -29,11 +36,11 @@ Member, 2018 - 2019
 Supervisor: Prof.Qingguo Zhou, Dept. of Computer Science and Technology, Lanzhou University, China
 
  - Implemented a LiDAR-based road area segmentation method <sup>[1]</sup>
- - Studied applying adaptive thresholding method in LiDAR-based road edge detection task. *(Excellent Bachelor's Thesis, Advisor: Prof.Qingguo Zhou and Prof.Nicholas McGuire)*
- - Designed and implemented a LiDAR-based mapping framework with normal distribution
+ - Bachelor's Thesis: Analysis of Applying Adaptive Thresholding Method in LiDAR-Based Road Edge Detection Task. *(Excellent Bachelor's Thesis, Advisor: Prof.Qingguo Zhou and Prof.Nicholas McGuire)*
+ - Implemented a LiDAR-based mapping framework with normal distribution
 transforms(NDT) and sliding window strategy for road marking extraction.
 
-**StuPyd Programming Language** [\[link\]](https://github.com/StuPyd/stupyd-lang), Lanzhou, China
+**StuPyd: Language For Programming Education** [\[link\]](https://github.com/StuPyd/stupyd-lang), Lanzhou, China
 
 Group Leader, 2018
 
@@ -47,19 +54,14 @@ Supervisor: Prof.Hao Yan, Dept. of Computer Science and Technology, Lanzhou Univ
 
 ## Publication
 
-[1] Z.Shen, Y.Xu, M.Sun, A.Carballo, Q.Zhou, **"3D Map Optimization with Fully Convolutional Neural Network and Dynamic Local NDT"**, *22nd IEEE International Conference on Intelligent Transportation Systems(ITSC)*, 2019, In Press.
+[1] Zebang Shen, Yichong Xu, Muchen Sun, Alexander Carballo, Qingguo Zhou, **"3D Map Optimization with Fully Convolutional Neural Network and Dynamic Local NDT"**, *IEEE International Conference on Intelligent Transportation Systems(ITSC)*, Auckland, NZ, October 2019. In Press.
+
 
 ***
 
-## Projects
+## Software
 
-**ROS-Lab: Docker-Based Robot Operating System Virtual Lab [\[link\]](https://pypi.org/project/ros-lab/)**
+**ROS-Lab: Docker-Based Robot Operating System Virtual Lab** [\[link\]](https://pypi.org/project/ros-lab/)
 
 A Docker-based virtual lab of Robot Operating System(ROS) to help beginners learn and practise. 
 
-***
-
-## Contact
-
- * **Mailing Address**: Department of Mechanical Engineering, Robert R. McCormick School of Engineering and Applied Science, Technological Institute, 2145 Sheridan Road, Evanston, IL 60208
- * **Email**: [muchensun2021@u.northwestern.edu](mailto:muchensun2021@u.northwestern.edu)
