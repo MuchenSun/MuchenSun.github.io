@@ -1,0 +1,279 @@
+%----------------------------------------------------------------------------------------
+%	ENVIRONMENT SETTING: 1
+%----------------------------------------------------------------------------------------
+\documentclass[margin,line,pifont,palatino,courier]{res}
+
+\usepackage{pifont}
+\usepackage[latin1] { inputenc}
+
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+
+\usepackage{blindtext}
+\usepackage{scrextend}
+\addtokomafont{labelinglabel}{\sffamily}
+
+\usepackage{enumerate}
+
+%\topmargin .5in
+%\oddsidemargin -.5in
+%\evensidemargin -.5in
+%\textwidth=6.0in
+\textheight=9.0in
+%\itemsep=0in
+%\parsep=0in
+\usepackage{fancyhdr}
+%\topmargin=0in
+%\textheight=8.5in
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+%\cfoot{\thepage}
+%\lfoot{\textit{\footnotesize Research Statement}}
+\rfoot{{\footnotesize Curriculum Vitae, Muchen Sun, \thepage}}
+
+
+\newenvironment{list1}{
+	\begin{list}{\ding{113}}{%
+			\setlength{\itemsep}{0in}
+			\setlength{\parsep}{0in} \setlength{\parskip}{0in}
+			\setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+			\setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+	\begin{list}{$\bullet$}{%
+			\setlength{\itemsep}{0in}
+			\setlength{\parsep}{0in} \setlength{\parskip}{0in}
+			\setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+			\setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\begin{document}
+	
+	\name{Muchen Sun \vspace*{.1in}}
+	
+	\begin{resume}
+		
+%----------------------------------------------------------------------------------------
+%	CONTACT INFORMATION
+%----------------------------------------------------------------------------------------		
+		\section{\sc Contact Information}
+		
+		\begin{tabular}{@{}p{2.7in}p{2in}}
+			Department of Mechanical Engineering, & (773) 313-5186 \\
+			Northwestern University,  & \verb+muchensun2021@u.northwestern.edu+\\
+			2145 Sheridan Road, Evanston, IL 60208 & \verb+https://muchensun.github.io+\\
+		\end{tabular}
+				
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+		\section{\sc Education}
+		
+		\begin{tabular}{@{}p{3.4in}p{2.0in}}
+			{\bf Northwestern University} & {\sc Evanston, USA} \\
+			M.S.~in Mechanical Engineering & {\sl 2019.9 -- Present} \\
+		\end{tabular}
+		
+		\begin{tabular}{@{}p{3.4in}p{2.0in}}	
+			{\bf Lanzhou University} & {\sc Gansu, China} \\
+			B.E.~in Computer Science and Technology & {\sl 2015.9 -- 2019.6} \\
+%			GPA: 4.32/5.0 & \\
+			%	\begin{tabular}{@{}p{1.5in}p{1.5in}p{3.0in}}
+			%		GPA: 4.32/5.0(10\%) \\
+			%	\end{tabular}
+			%	\begin{list1}
+			%		\vspace*{.05in}
+			%		\item GPA: 4.32/5.0
+			%		\item Ranking: 7/70
+			%	\end{list1}
+%			{\bf University of California San Diego} & {\sc CA, USA} \\
+%			Visiting Student & {\sl 2017.9 -- 2017.12}
+		\end{tabular}
+% 	GPA: 4.32/5.0 \quad GRE: V150+Q170+AW3.5 \quad TOEFL(iBT): 102
+
+%----------------------------------------------------------------------------------------
+%	RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------		
+%		\section{\sc Research Interests}
+%		
+%		\begin{list1}
+%			\item Robotics (especially in Simultaneous Localization And Mapping)
+%			\item Computer Vision
+%			\item Compiler Construction
+%		\end{list1}
+			
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCES
+%----------------------------------------------------------------------------------------	
+		\section{\sc Research Experiences}
+		
+		{\bf Autonomous Driving Research Group} \hfill Lanzhou University, China \\
+		Group Member \hfill {\sl 2018.10 -- 2019.6} \\
+		Supervisor: Qingguo Zhou, Dept of Computer Science and Technology, Lanzhou University, China
+		\begin{list2}
+			\item Implemented a LIDAR-based road segmentation method$^{[1]}$.
+			\item Bachelor's Thesis: Analysis of Applying Adaptive Thresholding Method in LiDAR-Based Road Edge Detection Task. {\sl (Excellent Bachelor's Thesis, Advisor: Prof. Qingguo Zhou and Prof. Nicholas McGuire)}
+			\item Implemented a LIDAR-based mapping framework with normal distribution transforms(NDT) and sliding window strategy for road marking extraction.
+		\end{list2}
+	
+		{\bf StuPyd: Language For Programming Education} \hfill Lanzhou University, China \\
+		Website: \verb+https://github.com/StuPyd/stupyd-lang+ \\
+		Group Leader \hfill {\sl 2018.5 -- 2018.11} \\
+		Supervisor: Hao Yan, Dept of Computer Science and Technology, Lanzhou University, China 
+		\begin{list2}
+			\item Designed and implemented part of the compiler parser with Python and Another Tool for Language Recognition(ANTLR).
+			\item Designed and implemented the back end of the compiler as a bytecode execution virtual machine.
+			\item Implemented a Jupyter Notebook kernel based on the compiler. 
+		\end{list2}	
+		
+%		{\bf Knocada: A Web-Based Large-Scale Community Deliberation System for Collective Wisdom Harvest} \hfill Lanzhou University, China \\
+%		Group Member \hfill {\sl 2017.5 -- 2017.10} \\
+%		Supervisor: Jian Zhan, Dept of Computer Science and Technology, Lanzhou University, China
+%		\begin{list2}
+%			\item Designed the workflow of the system, implemented an archetype with related visualization tools using Axure.
+%			%\item Designed the working process of the system as an issue-driven deliberation process under agenda modified for each issue.
+%			%\item Implemented an archetype of the system and related visualization tools with Axure.
+%		\end{list2}
+
+%----------------------------------------------------------------------------------------
+%	Publication
+%----------------------------------------------------------------------------------------		
+		\section{\sc Publication}
+			
+			\begin{enumerate}[{[1]}]
+				\item Zebang Shen, Yichong Xu, Muchen Sun, Alexander Carballo, Qingguo Zhou. 3D Map Optimization with Fully Convolutional Neural Network and Dynamic Local NDT. {\it IEEE International Conference on Intelligent Transportation Systems(ITSC)}, Auckland, NZ, October 2019. In Press.
+			\end{enumerate}
+		
+%----------------------------------------------------------------------------------------
+%	Software
+%----------------------------------------------------------------------------------------		
+		\section{\sc Software}
+		
+%		{\bf Laser-Based Simultaneous Localization and Mapping with Mobile Robot DSBot} \hfill Lanzhou University, China \\
+%		Individual Project \hfill {\sl 2019.9 -- Present} \\
+%		Supervisor: Qingguo Zhou, Dept of Computer Science and Technology, Lanzhou University, China
+%		\begin{list2}
+%			\item Develop a simultaneous localization and mapping system to build occupancy grid map for indoor environments from laser and pose data. The system is deployed on the robot kit named DSBot from the Distributed and Embedded System Lab at Lanzhou University.
+%		\end{list2}	
+		
+		{\bf ROS-Lab: Docker-Based Robot Operating System Virtual Lab} \\
+		Website: \verb+https://github.com/MuchenSun/ros-lab+ 
+		\begin{list2}
+			\item Built a docker image to enable users to access Ubuntu desktop environment with Robot Operating System(ROS) in the web browser.
+			\item Implemented a REPL user interface to simplify Docker operations.
+		\end{list2}
+		
+		{\bf Robot Operating System Driver for the DeepCam Face Recognition API} 
+%		Individual Project \hfill Lanzhou University, China 
+		\begin{list2}
+			\item Implemented a Robot Operating System(ROS) driver for the face recognition API of the DeepCam company. %This driver reads in frames from other ROS camera drivers to publish its own ROS topics about target face detection result for further development.
+			\item Implemented a face scanner demonstration with this driver on the TurtleBot3 robot.
+		\end{list2}
+	
+%		{\bf StuPyd: Language For Programming Education} \hfill Lanzhou University, China \\
+%		Group Leader \hfill {\sl 2018.5 -- 2018.11} \\
+%		Supervisor: Hao Yan, Dept of Computer Science and Technology, Lanzhou University, China
+%		\begin{list2}
+%			\item Designed and implemented part of the compiler parser with Python and Another Tool for Language Recognition(ANTLR).
+%			\item Designed and implemented the bytecode execution virtual machine with Python.
+%			\item Implemented two releases: a command line-based compiler with debug function, and a Jupyter Notebook-based web editor. Both implements are available on GitHub.
+%		\end{list2}	
+		
+%		{\bf Knocada: A Web-Based Large-Scale Community Deliberation System for Collective Wisdom Harvest} \hfill Lanzhou University, China \\
+%		Group Member \hfill {\sl 2017.5 -- 2017.10} \\
+%		Supervisor: Jian Zhan, Dept of Computer Science and Technology, Lanzhou University, China
+%		\begin{list2}
+%			\item Designed the working process of the system as an issue-driven deliberation process under agenda modified for each issue.
+%			\item Implemented an archetype of the system and related visualization tools with Axure.
+%		\end{list2}
+		
+%----------------------------------------------------------------------------------------
+%	EXTENDED PROFESSIONAL EXPERIENCES
+%----------------------------------------------------------------------------------------		
+%		\section{\sc Extended\\Professional\\Experiences}
+%		
+%		\begin{tabular}{@{}p{3.4in}p{2.0in}}
+%			{\bf University of California San Diego} & {\sc San Diego, USA} \\
+%			University and Professional Studies Program& {2017.9 -- 2017.12} \\
+%			Visit Student	
+%		\end{tabular}
+		
+%----------------------------------------------------------------------------------------
+%	EXTENDED PROFESSIONAL EXPERIENCES
+%----------------------------------------------------------------------------------------
+		\section{\sc Extended\\Professional\\Experience}
+		
+		\vspace{.05in}
+		\begin{tabular}{@{}p{3.4in}p{2.0in}}
+			{\bf University of California San Diego} & {\sc San Diego, USA} \\
+			University and Professional Studies Program & {\sl 2017.9 -- 2017.12} \\
+			Visiting Student
+		\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	HONORS AND AWARDS
+%----------------------------------------------------------------------------------------				
+		\section{\sc Honors and Awards}
+		
+		\begin{tabular}{@{}p{0.8in}p{4in}}
+			2016 -- 2017 & Second-class Scholarship of Lanzhou University \\
+			2015 -- 2016 & Second-class Scholarship of Lanzhou University \\
+		\end{tabular}
+	
+%----------------------------------------------------------------------------------------
+%	RELATIVE COURSEWORK
+%----------------------------------------------------------------------------------------		
+		\section{\sc Related Coursework}
+		
+		\begin{tabular}{@{}p{2.6in}p{3in}}
+			\begin{list1}
+				\item Data Structure
+				\item The Design of C++ Program
+				\item Digital Logic
+				\item Calculus
+				\item Probability and Mathematical Statistics
+			\end{list1}
+			&
+			\begin{list1}
+				\item Algorithm Design and Analysis
+				\item Operating Systems
+				\item Electronic Circuit
+				\item Linear Algebra
+				\item Numerical Analysis
+			\end{list1}
+			
+		\end{tabular}
+		
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS
+%----------------------------------------------------------------------------------------		
+		\section{\sc Technical\\Strengths}
+		
+		\begin{tabular}{@{}p{2.2in}p{3in}}
+			{\bf Computer Languages}: & Python, C++, MATLAB  \\
+			{\bf Frameworks and Libraries}: & ROS, PCL, OpenCV, Keras\\
+			{\bf Tools}: & Make, Git, Docker, ANTLR
+%			{\bf Computer Languages}: & Python, C++, Java, MATLAB, LaTeX  \\
+%			{\bf Robotics and Computer Vision}: & ROS, OpenCV, COLMAP, OpenMVG \\
+%			{\bf Compiler:}: & GCC, Make, ANTLR \\
+%			{\bf Libraries}: & Keras
+		\end{tabular}
+		
+%		\begin{list1}
+%			\item {\bf Computer Languages}: Python, C++, Java, Matlab, LaTeX 
+%			\item {\bf Frameworks and Libraries}: ROS, OpenCV, ANTLR
+%			\item {\bf Databases}: SQL Server, HBase, MongoDB
+%			\item {\bf Tools}: Docker, Make, Git, Vim
+%		\end{list1}
+		
+%----------------------------------------------------------------------------------------
+%	REFERENCES
+%----------------------------------------------------------------------------------------		
+%		\section{\sc References}
+%		
+%		{\bf Qingguo Zhou}, Director of Distributed and Embedded System Lab,
+%		Dept of Computer Science and Technology, Lanzhou University,
+%		(86)189-1988-0092, \texttt{zhouqg@lzu.edu.cn}\\
+		
+		
+	\end{resume}
+\end{document}
