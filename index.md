@@ -24,6 +24,7 @@ HI! I am a master student of Mechanical Engineering at Northwestern University. 
 **Lanzhou University, School of Information Science and Engineering**
 
  - B.E., Computer Science and Technology, 2015 - 2019
+ - Thesis: *Analysis of Applying Adaptive Thresholding Method in LiDAR-Based Road Edge Detection Task (Excellent Bachelor's Thesis)* - Advisor: Prof.Qingguo Zhou
 
 ***
 
@@ -35,10 +36,9 @@ Member, 2018 - 2019
 
 Supervisor: Prof.Qingguo Zhou, Dept. of Computer Science and Technology, Lanzhou University, China
 
- - Implemented a LiDAR-based road area segmentation method <sup>[1]</sup>
- - Bachelor's Thesis: Analysis of Applying Adaptive Thresholding Method in LiDAR-Based Road Edge Detection Task. *(Excellent Bachelor's Thesis, Advisor: Prof.Qingguo Zhou and Prof.Nicholas McGuire)*
+ - Implemented a LiDAR-based road area segmentation method in ROS <sup>[1]</sup>
  - Implemented a LiDAR-based mapping framework with normal distribution
-transforms(NDT) and sliding window strategy for road marking extraction.
+transforms(NDT) and sliding window strategy for road marking extraction in ROS.
 
 **StuPyd: Language For Programming Education** [\[link\]](https://github.com/StuPyd/stupyd-lang), Lanzhou, China
 
