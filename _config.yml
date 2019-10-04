@@ -16,9 +16,11 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "Curriculum Vitae"
+ - name: "CV"
    link: "/CurriculumVitae/MuchenSun_CurriculumVitae.pdf"
  - name: "GitHub"
    link: "https://github.com/MuchenSun/"
+ - name: "Linkedin"
+   link: "https://www.linkedin.com/in/muchen-sun-4089a7158/"
  - name: "Blog"
    link: "blog"
