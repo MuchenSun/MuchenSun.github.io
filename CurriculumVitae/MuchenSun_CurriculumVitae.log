@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  4 OCT 2019 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.5.8)  12 DEC 2019 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**MuchenSun_CurriculumVitae.tex
+**MuchenSun_CurriculumVitae.tex -aux-directory=./
 (./MuchenSun_CurriculumVitae.tex
 LaTeX2e <2018-12-01>
 (./res.cls
@@ -316,12 +316,6 @@ Overfull \hbox (19.26183pt too wide) in paragraph at lines 120--121
 int Cloud Li-brary(PCL)
  []
 
-
-Overfull \hbox (0.82639pt too wide) in paragraph at lines 149--150
-\OT1/cmr/m/n/10 NDT. \OT1/cmr/m/it/10 IEEE In-ter-na-tional Con-fer-ence on In-
-tel-li-gent Trans-porta-tion Sys-tems(ITSC)\OT1/cmr/m/n/10 ,
- []
-
 [1
 
 {/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
@@ -353,7 +347,7 @@ Here is how much of TeX's memory you used:
  9747 multiletter control sequences out of 15000+600000
  6710 words of font info for 24 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 33i,11n,47p,332b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 33i,11n,47p,340b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb>
@@ -365,7 +359,7 @@ al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/loca
 l/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local
 /texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/
 texlive/2019/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on MuchenSun_CurriculumVitae.pdf (2 pages, 131370 bytes).
+Output written on MuchenSun_CurriculumVitae.pdf (2 pages, 132962 bytes).
 PDF statistics:
  62 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
