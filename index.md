@@ -25,6 +25,15 @@ layout: default
 
 ## Research Experience
 
+**PISwarm: A Versatile Platform for General Swarm-Robotic Research**, Northwestern University, USA
+
+*(2019.10 - 2020.3)*
+
+Advisor: [Prof.Michael Rubenstein](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/rubenstein-michael.html), Dept. of Mechanical Engineering
+
+ - Developed a monitor (GUI) for controlling and communicating with the swarm robots.
+
+
 **Bachelor's Thesis: Analysis of Applying Adaptive Thresholding Method in LiDAR-Based Road Edge Detection Task** *(Outstanding Undergraduate Thesis)*, Lanzhou University, China
 
 *(2019.1 - 2019.6)*
@@ -34,6 +43,7 @@ Advisor: Prof.Qingguo Zhou, Dept. of Computer Science and Technology
  - Analyzed and established an assumption for LiDAR point cloud data distribution using a simulation model built in V-REP.
  - Exploited Rosin thresholding method to both simulated data and real world data to analyze the application of adaptive thresholding method in LiDAR-based road edge detection task.
 
+
 **Autonomous Driving Research Group**, Lanzhou University, China 
 
 *(2018.10 - 2019.6)*
@@ -42,6 +52,7 @@ Advisor: Prof.Qingguo Zhou, Dept. of Computer Science and Technology
 
  - Implemented a LiDAR-based road segmentation method with Point Cloud Library(PCL) in ROS <sup>[1]</sup>.
  - Implemented a LiDAR-based offline mapping framework with normal distribution transforms(NDT) and sliding window strategy for road marking extraction, with Point Cloud Library(PCL) in ROS.
+
 
 **StuPyd: Language For Programming Education** [\[link\]](https://github.com/StuPyd/stupyd-lang), Lanzhou University, China
 
