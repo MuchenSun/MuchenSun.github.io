@@ -3,7 +3,7 @@ url: "https://muchensun.github.io"
 baseurl: ""
 
 markdown: kramdown
-ins_logo: "./Northwestern_purple_RGB.svg"
+ins_logo: #"./Northwestern_purple_RGB.svg"
 
 tracking_id: #
 

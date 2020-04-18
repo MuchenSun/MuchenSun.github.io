@@ -31,7 +31,7 @@ layout: default
 
 Advisor: [Prof.Michael Rubenstein](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/rubenstein-michael.html), Dept. of Mechanical Engineering
 
- - Developed a monitor (GUI) for controlling and communicating with the swarm robots.
+ - Developed a monitor with GUI for controlling and communicating with the swarm robots.
 
 
 **Bachelor's Thesis: Analysis of Applying Adaptive Thresholding Method in LiDAR-Based Road Edge Detection Task** *(Outstanding Undergraduate Thesis)*, Lanzhou University, China
