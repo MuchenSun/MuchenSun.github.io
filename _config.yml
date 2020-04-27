@@ -18,6 +18,8 @@ sass:
 nav:
  - name: "CV"
    link: "/CurriculumVitae/MuchenSun_CurriculumVitae.pdf"
+ - name: "Google Scholar"
+   link: "https://scholar.google.com/citations?hl=en&user=Mxhr5r4AAAAJ"
  - name: "GitHub"
    link: "https://github.com/MuchenSun/"
  - name: "Linkedin"
