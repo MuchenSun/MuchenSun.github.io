@@ -23,7 +23,7 @@ layout: default
 
 ***
 
-## Publication
+## Publication <a name="publication"></a>
 
 **[1]** Z. Shen, Y. Xu, M. Sun, A. Carballo and Q. Zhou, "**3D Map Optimization with Fully Convolutional Neural Network and Dynamic Local NDT**," *2019 IEEE Intelligent Transportation Systems Conference (ITSC)*, Auckland, New Zealand, 2019, pp. 4404-4411. [\[link\]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8917130&isnumber=8916833) [\[video\]](/videos/0357_VI.mp4)
 
@@ -56,7 +56,7 @@ Advisor: Prof.Qingguo Zhou, Dept. of Computer Science and Technology
 
 Advisor: Prof.Qingguo Zhou, Dept. of Computer Science and Technology
 
- - Developed a LiDAR-based road segmentation and road marking extraction method with PCL in ROS <sup>[1]</sup>.
+ - Developed a LiDAR-based road segmentation and road marking extraction method with PCL in ROS **<sup><a href="#publication">[1]</a></sup>**.
  - Developed a LiDAR-based offline mapping framework with normal distribution transforms(NDT) and sliding window strategy for large-scale 3D map construction in ROS.
 
 
