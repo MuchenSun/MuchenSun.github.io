@@ -92,43 +92,55 @@
 %----------------------------------------------------------------------------------------
 %	RESEARCH INTERESTS
 %----------------------------------------------------------------------------------------		
-%		\section{\sc Research Interests}
-%		
-%		\begin{list1}
-%			\item Robotics (especially in Simultaneous Localization And Mapping)
-%			\item Computer Vision
-%			\item Compiler Construction
-%		\end{list1}
+		\section{\sc Research Interests}
+		
+		\begin{list1}
+			\item Robotic motion planning in belief space (especially for human-robot interaction)
+			\item Optimal control
+			\item Data-driven methods for dynamic systems
+		\end{list1}
 			
 %----------------------------------------------------------------------------------------
 %	RESEARCH EXPERIENCES
 %----------------------------------------------------------------------------------------	
 		\section{\sc Research Experiences}
 		
+		{\bf Interactive and Emergent Autonomy Lab} \\
+		Northwestern University, USA \hfill {\sl 2020.1 - Present} \\
+		Advisor: Prof.Todd Murphey, Dept of Mechanical Engineering
+		\begin{list2}
+			\item Working on algorithms for ergodic planning in belief space.
+		\end{list2}
+		
+		{\bf PISwarm: A Versatile Platform for General Swarm-Robotic Research}\\
+		Northwestern University, USA \hfill {\sl 2019.10 - 2020.3} \\
+		Advisor: Prof.Michael Rubenstein, Dept of Mechanical Engineering
+		\begin{list2}
+			\item Developed a central monitor with GUI for controlling and communicating with the swarm robots.
+		\end{list2}
+		
 		{\bf Bachelor's Thesis: Analysis of Applying Adaptive Thresholding Method in LiDAR-Based Road Edge Detection Task \it (Outstanding Undergraduate Thesis)}\\
 		Lanzhou University, China \hfill {\sl 2019.1 - 2019.6} \\
-		Advisor: Prof. Qingguo Zhou, Dept of Computer Science and Technology
+		Advisor: Prof.Qingguo Zhou, Dept of Computer Science and Technology
 		\begin{list2}
-			\item Analyzed and established an assumption for LiDAR point cloud data distribution using a simulation model built in V-REP.
-			\item Exploited Rosin thresholding method to both simulated data and real world data to analyze the application of adaptive thresholding method in LiDAR-based road edge detection task.
+			\item Exploited Rosin thresholding method to both simulation environment in V-REP and real world data (KITTI datasets) to analyze the application of adaptive thresholding method in LiDAR-based road edge detection task.
 		\end{list2}
 		
 		{\bf Autonomous Driving Research Group} \\
 		Lanzhou University, China \hfill {\sl 2018.10 -- 2019.6} \\
-		Advisor: Prof. Qingguo Zhou, Dept of Computer Science and Technology
+		Advisor: Prof.Qingguo Zhou, Dept of Computer Science and Technology
 		\begin{list2}
-			\item Implemented a LiDAR-based road segmentation method with Point Cloud Library(PCL) in ROS$^{[1]}$.
-			\item Implemented a LiDAR-based mapping framework with normal distribution transforms(NDT) and sliding window strategy for road marking extraction with Point Cloud Library(PCL) in ROS.
+			\item Developed a LiDAR-based road segmentation and road marking extraction method with PCL in ROS $\mathbf{^{[1]}}$.
+			\item Developed a LiDAR-based offline mapping framework with normal distribution transforms(NDT) and sliding window strategy for large-scale 3D map construction in ROS.
 		\end{list2}
 	
 		{\bf StuPyd: Language For Programming Education} \\
-		Website: \verb+https://github.com/StuPyd/stupyd-lang+ \\
+		Website: \verb+https://pypi.org/project/stupyd/+ \\
 		Lanzhou University, China \hfill {\sl 2018.5 -- 2018.11} \\
-		Advisor: Prof. Hao Yan, Dept of Computer Science and Technology 
+		Advisor: Prof.Hao Yan, Dept of Computer Science and Technology 
 		\begin{list2}
-			\item Designed and implemented part of the compiler parser with Python and Another Tool for Language Recognition(ANTLR).
-			\item Designed and implemented the back end of the compiler as a bytecode execution virtual machine.
-			\item Implemented a Jupyter Notebook kernel based on the compiler. 
+			\item Developed the compiler front end with Python and ANTLR.
+			\item Developed the compiler back end as a bytecode execution virtual machine and a Jupyter Notebook kernel built upon the compiler. 
 		\end{list2}	
 		
 %		{\bf Knocada: A Web-Based Large-Scale Community Deliberation System for Collective Wisdom Harvest} \hfill Lanzhou University, China \\
@@ -162,17 +174,15 @@
 %		\end{list2}	
 		
 		{\bf ROS-Lab: Docker-Based Robot Operating System Virtual Lab} \\
-		Website: \verb+https://github.com/MuchenSun/ros-lab+ 
+		Website: \verb+https://pypi.org/project/ros-lab/+ 
 		\begin{list2}
-			\item Built a docker image to enable users to access Ubuntu desktop environment with Robot Operating System(ROS) in the web browser.
-			\item Implemented a REPL user interface to simplify Docker operations.
+			\item A Docker-based virtual lab of Robot Operating System(ROS) to help beginners learn and practise.
 		\end{list2}
 		
 		{\bf Robot Operating System Driver for the DeepCam Face Recognition API} 
 %		Individual Project \hfill Lanzhou University, China 
 		\begin{list2}
-			\item Implemented a Robot Operating System(ROS) driver for the face recognition API of the DeepCam company. %This driver reads in frames from other ROS camera drivers to publish its own ROS topics about target face detection result for further development.
-			\item Implemented a face scanner demonstration with this driver on the TurtleBot3 robot.
+			\item Implemented a ROS driver for the face recognition API of the DeepCam company, and a face scanner demonstration with the driver on the TurtleBot3 robot.
 		\end{list2}
 	
 %		{\bf StuPyd: Language For Programming Education} \hfill Lanzhou University, China \\
@@ -222,6 +232,7 @@
 		\section{\sc Honors and Awards}
 		
 		\begin{tabular}{@{}p{0.8in}p{4in}}
+			2019 & Lanzhou University Outstanding Graduate \\
 			2016 -- 2017 & Second-class Scholarship of Lanzhou University \\
 			2015 -- 2016 & Second-class Scholarship of Lanzhou University \\
 		\end{tabular}
@@ -233,7 +244,7 @@
 		
 		\begin{tabular}{@{}p{2.2in}p{3in}}
 			{\bf Computer Languages}: & Python, C++, MATLAB  \\
-			{\bf Frameworks and Libraries}: & ROS, PCL, OpenCV, Keras\\
+			{\bf Frameworks and Libraries}: & ROS, PCL, OpenCV\\
 			{\bf Tools}: & Make, Git, Docker, ANTLR, \LaTeX
 %			{\bf Computer Languages}: & Python, C++, Java, MATLAB, LaTeX  \\
 %			{\bf Robotics and Computer Vision}: & ROS, OpenCV, COLMAP, OpenMVG \\
@@ -251,24 +262,24 @@
 %----------------------------------------------------------------------------------------
 %	RELATIVE COURSEWORK
 %----------------------------------------------------------------------------------------		
-\section{\sc Related Coursework}
-
-\begin{tabular}{@{}p{2in}p{3in}}
-	\begin{list1}
-		\item Data Structure
-		\item C++ Programming
-		\item Principle of Compiling
-		\item Numerical Analysis
-	\end{list1}
-	&
-	\begin{list1}
-		\item The Design and Analysis of Algorithm
-		\item Operating Systems
-		\item Digital Logic
-		\item Linux Embedded Development
-	\end{list1}
-	
-\end{tabular}
+%\section{\sc Related Coursework}
+%
+%\begin{tabular}{@{}p{2in}p{3in}}
+%	\begin{list1}
+%		\item Data Structure
+%		\item C++ Programming
+%		\item Principle of Compiling
+%		\item Numerical Analysis
+%	\end{list1}
+%	&
+%	\begin{list1}
+%		\item The Design and Analysis of Algorithm
+%		\item Operating Systems
+%		\item Digital Logic
+%		\item Linux Embedded Development
+%	\end{list1}
+%	
+%\end{tabular}
 
 %----------------------------------------------------------------------------------------
 %	REFERENCES
