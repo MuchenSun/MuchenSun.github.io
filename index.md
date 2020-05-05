@@ -4,9 +4,9 @@ layout: default
 
 <img class="profile-picture" src="msun_small.jpg">
 
-Hi, I'm currently a graduate student in Mechanical Engineering (with specialization in Robotics) at Northwestern University.
+Hi, I'm currently a graduate student in mechanical engineering (with specialization in robotics) at Northwestern University.
 
-My current researches focus on combining perception, learning and planning algorithms to enable robots work better in uncertain, dynamic, and safety-critical environments, especially when interacting with human. I use belief space planning algorithms, optimal control methods, and data-driven methods for dynamic systems to achieve this goal.
+My current researches focus on combining perception, learning and planning algorithms to enable robots work better in uncertain, dynamic, and safety-critical environments. I use belief space planning algorithms, optimal control methods, and data-driven methods for dynamic systems to achieve this goal.
 
 ***
 
@@ -31,8 +31,7 @@ My current researches focus on combining perception, learning and planning algor
 
 ## Publication <a name="publication"></a>
 
-**[1]** Z. Shen, Y. Xu, M. Sun, A. Carballo and Q. Zhou, "**3D Map Optimization with Fully Convolutional Neural Network and Dynamic Local NDT**," *2019 IEEE Intelligent Transportation Systems Conference (ITSC)*, Auckland, New Zealand, 2019, pp. 4404-4411. [\[link\]](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8917130&isnumber=8916833) [\[video\]](/videos/0357_VI.mp4)
-
+**[1]** Shen, Zebang, Yichong Xu, **Muchen Sun**, Alexander Carballo, and Qingguo Zhou. "[**3D Map Optimization with Fully Convolutional Neural Network and Dynamic Local NDT.**](http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8917130&isnumber=8916833)" In *2019 IEEE Intelligent Transportation Systems Conference (ITSC)*, pp. 4404-4411. IEEE, 2019. [\[video\]](/videos/0357_VI.mp4)
 
 ***
 
