@@ -67,12 +67,17 @@
 %----------------------------------------------------------------------------------------
 		\section{\sc Education}
 		
-		\begin{tabular}{@{}p{3.4in}p{2.0in}}
+		\begin{tabular}{@{}p{3.9in}p{2.0in}}
 			{\bf Northwestern University} & {\sc Evanston, USA} \\
 			M.S.~in Mechanical Engineering & {\sl 2019.9 -- Present} \\
 		\end{tabular}
 		
-		\begin{tabular}{@{}p{3.4in}p{2.0in}}	
+		\begin{tabular}{@{}p{3.9in}p{2.0in}}
+			{\bf University of California San Diego} & {\sc San Diego, USA} \\
+			Visiting Student (Non-Degree Program) & {\sl 2017.9 -- 2017.12} \\
+		\end{tabular}
+		
+		\begin{tabular}{@{}p{3.9in}p{2.0in}}	
 			{\bf Lanzhou University} & {\sc Gansu, China} \\
 			B.E.~in Computer Science and Technology & {\sl 2015.9 -- 2019.6} \\
 %			GPA: 4.32/5.0 & \\
@@ -87,6 +92,7 @@
 %			{\bf University of California San Diego} & {\sc CA, USA} \\
 %			Visiting Student & {\sl 2017.9 -- 2017.12}
 		\end{tabular}
+		{\bf Thesis}: Analysis of Applying Adaptive Thresholding Method in LiDAR-Based Road Edge Detection Task {\it(Outstanding Undergraduate Thesis)}
 % 	GPA: 4.32/5.0 \quad GRE: V150+Q170+AW3.5 \quad TOEFL(iBT): 102
 
 %----------------------------------------------------------------------------------------
@@ -95,11 +101,20 @@
 		\section{\sc Research Interests}
 		
 		\begin{list1}
-			\item Robotic motion planning in belief space (especially for human-robot interaction)
-			\item Optimal control
-			\item Data-driven methods for dynamic systems
+			\item Robot autonomous exploration in uncertain environments
+			\item Human-robot interaction under uncertainty
+			\item Robust state estimation for robots
 		\end{list1}
-			
+
+%----------------------------------------------------------------------------------------
+%	Publication
+%----------------------------------------------------------------------------------------		
+		\section{\sc Publication}
+		
+		\begin{enumerate}[{[1]}]
+			\item Shen, Zebang, Yichong Xu, {\bf Muchen Sun}, Alexander Carballo, and Qingguo Zhou. "3D Map Optimization with Fully Convolutional Neural Network and Dynamic Local NDT." In 2019 IEEE Intelligent Transportation Systems Conference (ITSC), pp. 4404-4411. IEEE, 2019.
+		\end{enumerate}
+	
 %----------------------------------------------------------------------------------------
 %	RESEARCH EXPERIENCES
 %----------------------------------------------------------------------------------------	
@@ -107,37 +122,40 @@
 		
 		{\bf Interactive and Emergent Autonomy Lab} \\
 		Northwestern University, USA \hfill {\sl 2020.1 - Present} \\
-		Advisor: Prof.Todd Murphey, Dept of Mechanical Engineering
+		Advisor: Prof.Todd Murphey (Dept of Mechanical Engineering)
 		\begin{list2}
-			\item Working on algorithms for ergodic planning in belief space.
+			\item Reconstructed an open-sourced distributed trajectory estimation library under ROS. Available at \verb+https://github.com/MuchenSun/ros_distributed_mapper+.
+			\item Developing active SLAM algorithm using ergodic exploration.
+			\item Working on robot navigation in dense human crowds (collaborate with Dr.Peter Trautman from Honda Research Institute).
 		\end{list2}
 		
 		{\bf PISwarm: A Versatile Platform for General Swarm-Robotic Research}\\
 		Northwestern University, USA \hfill {\sl 2019.10 - 2020.3} \\
-		Advisor: Prof.Michael Rubenstein, Dept of Mechanical Engineering
+		Advisor: Prof.Michael Rubenstein (Dept of Mechanical Engineering)
 		\begin{list2}
 			\item Developed a central monitor with GUI for controlling and communicating with the swarm robots.
 		\end{list2}
 		
-		{\bf Bachelor's Thesis: Analysis of Applying Adaptive Thresholding Method in LiDAR-Based Road Edge Detection Task \it (Outstanding Undergraduate Thesis)}\\
-		Lanzhou University, China \hfill {\sl 2019.1 - 2019.6} \\
-		Advisor: Prof.Qingguo Zhou, Dept of Computer Science and Technology
-		\begin{list2}
-			\item Exploited Rosin thresholding method to both simulation environment in V-REP and real world data (KITTI datasets) to analyze the application of adaptive thresholding method in LiDAR-based road edge detection task.
-		\end{list2}
+%		{\bf Bachelor's Thesis: Analysis of Applying Adaptive Thresholding Method in LiDAR-Based Road Edge Detection Task \it (Outstanding Undergraduate Thesis)}\\
+%		Lanzhou University, China \hfill {\sl 2019.1 - 2019.6} \\
+%		Advisor: Prof.Qingguo Zhou (Dept of Computer Science and Technology)
+%		\begin{list2}
+%			\item Exploited Rosin thresholding method to both simulation environment in V-REP and real world data (KITTI datasets) to analyze the application of adaptive thresholding method in LiDAR-based road edge detection task.
+%		\end{list2}
 		
 		{\bf Autonomous Driving Research Group} \\
 		Lanzhou University, China \hfill {\sl 2018.10 -- 2019.6} \\
-		Advisor: Prof.Qingguo Zhou, Dept of Computer Science and Technology
+		Advisor: Prof.Qingguo Zhou (Dept of Computer Science and Technology)
 		\begin{list2}
 			\item Developed a LiDAR-based road segmentation and road marking extraction method with PCL in ROS $\mathbf{^{[1]}}$.
-			\item Developed a LiDAR-based offline mapping framework with normal distribution transforms(NDT) and sliding window strategy for large-scale 3D map construction in ROS.
+%			\item Developed a LiDAR-based offline mapping framework with normal distribution transforms(NDT) and sliding window strategy for large-scale 3D map construction in ROS.
 		\end{list2}
-	
+		
+		% \newpage
 		{\bf StuPyd: Language For Programming Education} \\
-		Website: \verb+https://pypi.org/project/stupyd/+ \\
+		Website: \verb+https://github.com/StuPyd/stupyd-lang+ \\
 		Lanzhou University, China \hfill {\sl 2018.5 -- 2018.11} \\
-		Advisor: Prof.Hao Yan, Dept of Computer Science and Technology 
+		Advisor: Prof.Hao Yan (Dept of Computer Science and Technology)
 		\begin{list2}
 			\item Developed the compiler front end with Python and ANTLR.
 			\item Developed the compiler back end as a bytecode execution virtual machine and a Jupyter Notebook kernel built upon the compiler. 
@@ -151,20 +169,11 @@
 %			%\item Designed the working process of the system as an issue-driven deliberation process under agenda modified for each issue.
 %			%\item Implemented an archetype of the system and related visualization tools with Axure.
 %		\end{list2}
-
-%----------------------------------------------------------------------------------------
-%	Publication
-%----------------------------------------------------------------------------------------		
-		\section{\sc Publication}
-			
-			\begin{enumerate}[{[1]}]
-				\item Z. Shen, Y. Xu, M. Sun, A. Carballo and Q. Zhou, "3D Map Optimization with Fully Convolutional Neural Network and Dynamic Local NDT," \textsl{2019 IEEE Intelligent Transportation Systems Conference (ITSC)}, Auckland, New Zealand, 2019, pp. 4404-4411.
-			\end{enumerate}
 		
 %----------------------------------------------------------------------------------------
 %	Software
 %----------------------------------------------------------------------------------------		
-		\section{\sc Software}
+		\section{\sc Open-Sourced Software}
 		
 %		{\bf Laser-Based Simultaneous Localization and Mapping with Mobile Robot DSBot} \hfill Lanzhou University, China \\
 %		Individual Project \hfill {\sl 2019.9 -- Present} \\
@@ -174,17 +183,23 @@
 %		\end{list2}	
 		
 		{\bf ROS-Lab: Docker-Based Robot Operating System Virtual Lab} \\
-		Website: \verb+https://pypi.org/project/ros-lab/+ 
+		Website: \verb+https://pypi.org/project/ros-lab+ 
 		\begin{list2}
-			\item A Docker-based virtual lab of Robot Operating System(ROS) to help beginners learn and practise.
+			\item A Docker-based virtual lab of Robot Operating System(ROS) to help beginners learn and practice.
 		\end{list2}
 		
-		{\bf Robot Operating System Driver for the DeepCam Face Recognition API} 
-%		Individual Project \hfill Lanzhou University, China 
+		{\bf Online Course Notes for \it Modern Robotics} \\
+		Website: \verb+https://muchensun.github.io/ModernRoboticsCourseNotes/+ 
 		\begin{list2}
-			\item Implemented a ROS driver for the face recognition API of the DeepCam company, and a face scanner demonstration with the driver on the TurtleBot3 robot.
+			\item Course notes for {\it Modern Robotics: Mechanics, Planning, and Control Specialization} on Coursera.
 		\end{list2}
-	
+		
+		{\bf Interactive Tutorial for Gaussian Processes} \\
+		Website: \verb+https://github.com/MuchenSun/another_gp_tutorial+ 
+		\begin{list2}
+			\item Interactive tutorial for Gaussian processes based on Jupyter Notebook, modified from Dan Foreman-Mackey's original tutorial.
+		\end{list2}
+			
 %		{\bf StuPyd: Language For Programming Education} \hfill Lanzhou University, China \\
 %		Group Leader \hfill {\sl 2018.5 -- 2018.11} \\
 %		Supervisor: Hao Yan, Dept of Computer Science and Technology, Lanzhou University, China
@@ -201,7 +216,16 @@
 %			\item Designed the working process of the system as an issue-driven deliberation process under agenda modified for each issue.
 %			\item Implemented an archetype of the system and related visualization tools with Axure.
 %		\end{list2}
-		
+
+%----------------------------------------------------------------------------------------
+%	TEACHING
+%----------------------------------------------------------------------------------------
+\section{\sc Teaching}
+
+		\begin{tabular}{@{}p{0.8in}p{4in}}
+			2020 Fall & TA for \textit{ME}314: \textit{Machine Dynamics} at Northwestern University \\ 
+		\end{tabular}
+
 %----------------------------------------------------------------------------------------
 %	EXTENDED PROFESSIONAL EXPERIENCES
 %----------------------------------------------------------------------------------------		
@@ -212,39 +236,38 @@
 %			University and Professional Studies Program& {2017.9 -- 2017.12} \\
 %			Visit Student	
 %		\end{tabular}
-		
-%----------------------------------------------------------------------------------------
-%	EXTENDED PROFESSIONAL EXPERIENCES
-%----------------------------------------------------------------------------------------
-		\section{\sc Extended\\Professional\\Experience}
-		
-		\vspace{.05in}
-		\begin{tabular}{@{}p{3.4in}p{2.0in}}
-			{\bf University of California San Diego} & {\sc San Diego, USA} \\
-			University and Professional Studies Program & {\sl 2017.9 -- 2017.12} \\
-			Visiting Student
-		\end{tabular}
-
 
 %----------------------------------------------------------------------------------------
 %	HONORS AND AWARDS
 %----------------------------------------------------------------------------------------				
 		\section{\sc Honors and Awards}
-		
+		\vspace*{.02in}
 		\begin{tabular}{@{}p{0.8in}p{4in}}
 			2019 & Lanzhou University Outstanding Graduate \\
 			2016 -- 2017 & Second-class Scholarship of Lanzhou University \\
 			2015 -- 2016 & Second-class Scholarship of Lanzhou University \\
 		\end{tabular}
 		
+
+%----------------------------------------------------------------------------------------
+%	LEADERSHIP AND SERVICE EXPERIENCES
+%----------------------------------------------------------------------------------------
+		\section{\sc Leadership and Service}
+		\vspace*{.02in}
+		\begin{tabular}{@{}p{0.8in}p{4in}}
+			2020 & Certification in Research Communication Training Program (RCTP) at Northwestern University. \vspace*{.1in} \\
+			2019 -- 2020 & Vice President of Public Relations at Northwestern Public Speaking Club (formerly Northwestern Toastmaster Club).
+		\end{tabular}
+		
+
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS
 %----------------------------------------------------------------------------------------		
 		\section{\sc Technical\\Skills}
-		
+		\vspace*{.02in}
 		\begin{tabular}{@{}p{2.2in}p{3in}}
-			{\bf Computer Languages}: & Python, C++, MATLAB  \\
-			{\bf Frameworks and Libraries}: & ROS, PCL, OpenCV\\
+			{\bf Computer Languages}: & Python, C/C++, MATLAB  \\
+			{\bf Frameworks and Libraries}: & ROS, CUDA, MPI, PCL, OpenCV\\
 			{\bf Tools}: & Make, Git, Docker, ANTLR, \LaTeX
 %			{\bf Computer Languages}: & Python, C++, Java, MATLAB, LaTeX  \\
 %			{\bf Robotics and Computer Vision}: & ROS, OpenCV, COLMAP, OpenMVG \\
